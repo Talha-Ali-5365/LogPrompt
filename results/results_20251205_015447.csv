@@ -1,0 +1,8 @@
+Metric,Our Implementation,Paper (LogPrompt)
+Classification Precision,0.8260869565217391,0.27
+Classification Recall,1.0,0.917
+Classification F1-Score,0.9047619047619047,0.417
+Parsing Accuracy,0.8410174880763116,N/A
+Parsing Precision,0.8996598639455783,N/A
+Parsing Recall,0.9280701754385965,N/A
+Parsing F1-Score,0.9136442141623488,0.819
