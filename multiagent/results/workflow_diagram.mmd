@@ -1,0 +1,28 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	log_ingestion(log_ingestion)
+	pattern_analysis(pattern_analysis)
+	template_synthesis(template_synthesis)
+	variable_extraction(variable_extraction)
+	quality_assurance(quality_assurance)
+	metrics_orchestration(metrics_orchestration)
+	classification(classification)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> log_ingestion;
+	classification -. &nbsp;complete&nbsp; .-> __end__;
+	classification -. &nbsp;reprocess&nbsp; .-> pattern_analysis;
+	log_ingestion --> pattern_analysis;
+	metrics_orchestration --> classification;
+	pattern_analysis --> template_synthesis;
+	pattern_analysis --> variable_extraction;
+	quality_assurance --> metrics_orchestration;
+	template_synthesis --> quality_assurance;
+	variable_extraction --> quality_assurance;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
