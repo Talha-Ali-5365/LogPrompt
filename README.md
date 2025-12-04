@@ -224,7 +224,4 @@ This implementation is provided for research and educational purposes.
 - Liu, Y., et al. "Interpretable Online Log Analysis Using Large Language Models with Prompt Strategies." 2023.
 - LangGraph: Stateful Workflows for LLM Applications. https://github.com/langchain-ai/langgraph
 
----
-
-**Made with 🤖 AI Agents | Powered by 🧠 LangGraph | Built for 🎯 Excellence**
 
