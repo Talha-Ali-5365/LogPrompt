@@ -41,8 +41,6 @@ output.txt
 
 # Results (keep structure but ignore large files)
 results_backup/
-*.png
-!results/*.png
 
 # OS
 .DS_Store
